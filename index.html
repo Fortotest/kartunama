@@ -31,7 +31,6 @@
             background-color: var(--bg-color);
         }
 
-        /* ## KONTENER & LOGIKA FLIP ## */
         .card-flipper {
             width: 90%; max-width: 650px;
             height: 420px;
@@ -62,7 +61,6 @@
             padding: 30px;
         }
 
-        /* ## TATA LETAK SISI DEPAN ## */
         .card-front .header { 
             display: flex; justify-content: space-between; align-items: flex-start; 
             border-bottom: 1px solid var(--border-light); 
@@ -119,7 +117,6 @@
             margin-top: 10px;
         }
 
-        /* ## TATA LETAK SISI BELAKANG - Dirapikan ## */
         .card-back .content-wrapper {
             height: 100%;
             overflow-y: auto;
@@ -132,27 +129,25 @@
         .card-back .section:not(:first-child) { margin-top: 20px; }
         .description { font-family: var(--font-body); font-size: 0.9rem; line-height: 1.6; color: var(--text-light); }
         
-        /* Tata Letak Baru untuk Proyek Aktif */
         .project-list {
             display: grid;
-            grid-template-columns: 120px 1fr; /* Kolom untuk nama & deskripsi */
-            gap: 15px; /* Jarak antar proyek */
+            grid-template-columns: 120px 1fr;
+            gap: 15px;
             margin-top: 15px;
         }
         .project-name {
             font-family: var(--font-body);
-            font-weight: 700; /* Dibuat tebal */
+            font-weight: 700;
             font-size: 0.95rem;
             color: var(--text-dark);
         }
         .project-description {
-            font-family: var(--font-body); /* Font sama */
+            font-family: var(--font-body);
             font-size: 0.9rem;
             color: var(--text-light);
             line-height: 1.6;
         }
 
-        /* ## Tombol & Footer Halaman ## */
         .action-buttons { display: flex; justify-content: center; gap: 20px; margin-top: 40px; }
         .action-button { 
             width: 60px; height: 60px; border-radius: 50%; 
@@ -170,7 +165,6 @@
         }
         .page-footer { margin-top: 20px; font-size: 0.9rem; color: var(--text-light); text-align: center; font-family: var(--font-mono); }
 
-        /* ## Responsif ## */
         @media (max-width: 700px) {
             .card-flipper { height: auto; }
             .card-face { height: auto; min-height: 520px; }
@@ -179,7 +173,7 @@
             .info-table { width: 100%; }
             .card-front .footer { text-align: center; }
             .card-back { padding: 20px; }
-            .project-list { grid-template-columns: 1fr; } /* Proyek jadi 1 kolom di mobile */
+            .project-list { grid-template-columns: 1fr; }
         }
     </style>
 </head>
@@ -198,7 +192,7 @@
                 </div>
                 <div class="body-main">
                     <div class="profile-picture">
-                        <img src="https://github.com/tesweb2025/Market-Intelligence-5.1/blob/95e750ee4ea03f482ac6f27cc8ac86673f53c55c/POV_%20boards%E2%9C%A8.jpeg" alt="Foto Profil F Rizki">
+                        <img src="https://raw.githubusercontent.com/tesweb2025/Market-Intelligence-5.1/95e750ee4ea03f482ac6f27cc8ac86673f53c55c/POV_%20boards%E2%9C%A8.jpeg" alt="Foto Profil F Rizki">
                     </div>
                     <div class="info-table">
                         <span class="label">Nama</span><span class="value">F Rizki</span>
